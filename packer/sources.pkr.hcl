@@ -1,12 +1,11 @@
 packer {
   required_plugins {
     amazon-ebs = {
-      source  = "hashicorp/amazon-ebs"
+      source  = "github.com/abbysac"
       version = ">= 1.0.0"
     }
   }
 }
-
 source "amazon-ebs" "vm" {
   region                      = "${var.region}"
   subnet_id                   = "${var.subnet_id}"
