@@ -1,11 +1,11 @@
-packer {
-  required_plugins {
-    your_plugin_name = {
-      version = ">= 1.0.0"
-      source  = "github.com/harshicorp/amazon"
-    }
-  }
-}
+# packer {
+#   required_plugins {
+#     your_plugin_name = {
+#       version = ">= 1.0.0"
+#       source  = "github.com/harshicorp/amazon"
+#     }
+#   }
+# }
 
 build {
 
